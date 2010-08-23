@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3216
+
+Feedback is welcome. Please rate this plugin, if you like it.
+
+This is probably a little bit a silly plugin, but may be this is of use for someone.
+
+This plugin does not cope with recording and replaying macros, rather it steps though your undo tree so you can see, 
+what changes have been done, since starting editing.
+
+Use :StartRecording "tag" to start recording from the current change on and save it under the name "tag"
+Use :StopRecording "tag" to let the Recording for "tag" end at this change.
+Use :Replay "tag" to Replay your changes.
+
+You can usually leave tagname out and Replay.vim will record your changes under the name "Default".
+See :h Replay.txt to read the help
+
+This Plugin is also available at github: http://github.com/chrisbra/Replay

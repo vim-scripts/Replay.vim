@@ -2,10 +2,8 @@ This is a mirror of http://www.vim.org/scripts/script.php?script_id=3216
 
 Feedback is welcome. Please rate this plugin, if you like it.
 
-This is probably a little bit a silly plugin, but may be this is of use for someone.
-
 This plugin does not cope with recording and replaying macros, rather it steps though your undo tree so you can see, 
-what changes have been done, since starting editing.
+what changes have been done, since starting editing. It also allows to simply screen record a Vim session using ffmpeg/avconv so you can easily share with others how to work with Vim.
 
 Use :StartRecording "tag" to start recording from the current change on and save it under the name "tag"
 Use :StopRecording "tag" to let the Recording for "tag" end at this change.
